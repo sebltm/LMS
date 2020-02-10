@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sebltm/Dissertation/LMS/lib/Gist/src/core/CoreFrequencyDomainFeatures.cpp
+CoreFrequencyDomainFeatures.h
+/home/sebltm/Dissertation/LMS/lib/Gist/src/core/CoreFrequencyDomainFeatures.h
+
+/home/sebltm/Dissertation/LMS/lib/Gist/src/core/CoreFrequencyDomainFeatures.h
+vector
+-
+numeric
+-
+math.h
+-
+
+/home/sebltm/Dissertation/LMS/lib/Gist/src/core/CoreTimeDomainFeatures.cpp
+CoreTimeDomainFeatures.h
+/home/sebltm/Dissertation/LMS/lib/Gist/src/core/CoreTimeDomainFeatures.h
+
+/home/sebltm/Dissertation/LMS/lib/Gist/src/core/CoreTimeDomainFeatures.h
+vector
+-
+math.h
+-
+

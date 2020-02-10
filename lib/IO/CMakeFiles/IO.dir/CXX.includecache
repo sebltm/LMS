@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sebltm/Documents/LMS/lib/IO/library.cpp
+library.h
+/home/sebltm/Documents/LMS/lib/IO/library.h
+pa_linux_alsa.h
+-
+cstdio
+-
+cstdlib
+-
+
+/home/sebltm/Documents/LMS/lib/IO/library.h
+portaudio.h
+-
+

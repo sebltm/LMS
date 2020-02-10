@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Gist"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\Gist\;CMake Files\lib\IO\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gist">
+				<Option output="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/libGist.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 Gist"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gist/fast">
+				<Option output="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/libGist.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 Gist/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/src">
+			<Option target="Gist"/>
+		</Unit>
+		<Unit filename="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/src/core/CoreFrequencyDomainFeatures.cpp">
+			<Option target="Gist"/>
+		</Unit>
+		<Unit filename="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/src/core/CoreFrequencyDomainFeatures.h">
+			<Option target="Gist"/>
+		</Unit>
+		<Unit filename="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/src/core/CoreTimeDomainFeatures.cpp">
+			<Option target="Gist"/>
+		</Unit>
+		<Unit filename="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/src/core/CoreTimeDomainFeatures.h">
+			<Option target="Gist"/>
+		</Unit>
+		<Unit filename="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/src/pitch">
+			<Option target="Gist"/>
+		</Unit>
+		<Unit filename="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/Gist/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Gist\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sebastien Michel/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\IO\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
