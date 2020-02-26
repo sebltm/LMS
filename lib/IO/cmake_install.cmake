@@ -1,4 +1,4 @@
-# Install script for directory: /home/sebltm/Documents/LMS/lib/IO
+# Install script for directory: /home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,10 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/sebltm/Documents/LMS/lib/IO/libIO.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO/libIO.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/sebltm/Documents/LMS/lib/IO/library.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO/IO.h")
 endif()
 

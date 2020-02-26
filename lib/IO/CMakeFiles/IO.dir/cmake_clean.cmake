@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/IO.dir/library.cpp.o"
+  "CMakeFiles/IO.dir/IO.cpp.o"
   "libIO.a"
   "libIO.pdb"
 )

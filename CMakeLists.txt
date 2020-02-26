@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(lib/IO)
 
-add_executable(LMS main.cpp AudioAnalysis.cpp)
+add_executable(LMS main.cpp FeatureExtraction.cpp FeatureExtraction.h)
 
 target_include_directories(LMS PRIVATE lib/IO/)
 target_include_directories(LMS PRIVATE /usr/local/include/eigen3/)

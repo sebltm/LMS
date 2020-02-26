@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\IO\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sebltm/Documents/LMS/lib/IO"/>
+				<Option working_dir="/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="IO">
-				<Option output="/home/sebltm/Documents/LMS/lib/IO/libIO.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sebltm/Documents/LMS/lib/IO"/>
+				<Option output="/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO/libIO.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -34,15 +34,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 IO"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 IO"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="IO/fast">
-				<Option output="/home/sebltm/Documents/LMS/lib/IO/libIO.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sebltm/Documents/LMS/lib/IO"/>
+				<Option output="/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO/libIO.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -57,23 +57,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 IO/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sebltm/Documents/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 IO/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual\ Literature\ Review\ and\ Project/LMS/lib/IO/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sebltm/Documents/LMS/lib/IO/library.cpp">
+		<Unit filename="/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO/IO.cpp">
 			<Option target="IO"/>
 		</Unit>
-		<Unit filename="/home/sebltm/Documents/LMS/lib/IO/library.h">
+		<Unit filename="/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO/IO.h">
 			<Option target="IO"/>
 		</Unit>
-		<Unit filename="/home/sebltm/Documents/LMS/CMakeLists.txt">
+		<Unit filename="/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/sebltm/Documents/LMS/lib/IO/CMakeLists.txt">
+		<Unit filename="/home/sebltm/ExpanDrive/OneDrive/Documents/Exeter/Individual Literature Review and Project/LMS/lib/IO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\IO\"/>
 		</Unit>
 	</Project>
