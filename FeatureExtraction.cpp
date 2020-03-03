@@ -66,11 +66,11 @@ double ** FeatureExtraction::STFT(std::vector<SAMPLE> *signal, int signalLength,
         // Perform the FFT on our chunk
         fftw_execute( plan_forward );
 
-        std::cout << "Column: " << chunkPosition << std::endl;
-        for(i = 0 ; i < windowSize ; i++ ) {
-         fprintf( stdout, "fft_result[%d] = { %2.2f, %2.2f }\n",
-           i, fft_result[i][0], fft_result[i][1] );
-        }
+//        std::cout << "Column: " << chunkPosition << std::endl;
+//        for(i = 0 ; i < windowSize ; i++ ) {
+//         fprintf( stdout, "fft_result[%d] = { %2.2f, %2.2f }\n",
+//           i, fft_result[i][0], fft_result[i][1] );
+//        }
 
         // Copy the first (windowSize/2 + 1) data points into your spectrogram.
         // We do this because the FFT output is mirrored about the nyquist

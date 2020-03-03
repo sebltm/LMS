@@ -1,2 +1,0 @@
-C:\MinGW\bin\ar.exe qc libIO.a  CMakeFiles/IO.dir/library.c.obj
-C:\MinGW\bin\ranlib.exe libIO.a
